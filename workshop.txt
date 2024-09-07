@@ -1,0 +1,8 @@
+version=1
+title=True Lifestyle Bridge
+description=This mod bridges the Lifestyles mod with the True Music mod.
+description=
+description=- Dance to music played by friends or by the True Music mod
+description=- Play instruments as a vehicle passenger.
+tags=
+visibility=public
