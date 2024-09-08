@@ -1,0 +1,3 @@
+ContextMenu_EN = {
+	ContextMenu_Dancing_Option = "Dance! (LifestyleBridge)",
+}

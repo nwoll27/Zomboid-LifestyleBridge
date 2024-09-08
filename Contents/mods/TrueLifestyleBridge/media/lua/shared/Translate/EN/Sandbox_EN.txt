@@ -1,0 +1,26 @@
+Sandbox_EN = {
+
+	Sandbox_TrueLifestyle = "True Lifestyle Bridge - Settings"
+
+	Sandbox_Divider_DancingSettings = "________________ Dancing ________________",
+	Sandbox_Divider_DancingSettings_tooltip = "This is only a line separator, checking it has no effect.",
+
+	Sandbox_Dancing_DanceToInstruments = "Dance To Instruments",
+	Sandbox_Dancing_DanceToInstruments_tooltip = "Controls whether survivors can dance to music played on instruments by other survivors.",
+
+	Sandbox_Dancing_DanceToCassettes = "Dance To Cassettes",
+	Sandbox_Dancing_DanceToCassettes_tooltip = "Controls whether survivors can dance to music played on casettes.",
+
+	Sandbox_Dancing_DanceToNothing = "Dance To Nothing",
+	Sandbox_Dancing_DanceToNothing_tooltip = "Controls whether survivors can dance when no music's playing at all.",
+
+	Sandbox_Dancing_TestEnum = "Test Enumeration",
+	Sandbox_Dancing_TestEnum_tooltip = "Just a test enum with some localized values. Does nothing.",
+	Sandbox_Dancing_TestEnum_option1 = "Low",
+	Sandbox_Dancing_TestEnum_option2 = "Option 2",
+	Sandbox_Dancing_TestEnum_option3 = "Three",
+	Sandbox_Dancing_TestEnum_option4 = "Extreme",
+
+	Sandbox_Dancing_TestDouble = "Test Double",
+	Sandbox_Dancing_TestDouble_tooltip = "Just a test double. Does nothing."
+}

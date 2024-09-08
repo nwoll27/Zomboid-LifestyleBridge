@@ -9,13 +9,13 @@ option Dancing.DanceToInstruments
 	translation = Dancing_DanceToInstruments,
 }
 
-option Dancing.DanceToCassets
+option Dancing.DanceToCassettes
 {
 	type = boolean,
 	default = true,
 
 	page = TrueLifestyle,
-	translation = Dancing_DanceToCassets,
+	translation = Dancing_DanceToCassettes,
 }
 
 option Dancing.DanceToNothing
