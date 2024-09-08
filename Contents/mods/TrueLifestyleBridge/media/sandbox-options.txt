@@ -1,0 +1,49 @@
+VERSION = 1,
+
+option Dancing.DanceToInstruments
+{
+	type = boolean,
+	default = true,
+
+	page = TrueLifestyle,
+	translation = Dancing_DanceToInstruments,
+}
+
+option Dancing.DanceToCassets
+{
+	type = boolean,
+	default = true,
+
+	page = TrueLifestyle,
+	translation = Dancing_DanceToCassets,
+}
+
+option Dancing.DanceToNothing
+{
+	type = boolean,
+	default = false,
+
+	page = TrueLifestyle,
+	translation = Dancing_DanceToNothing,
+}
+
+option Dancing.TestEnum
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+
+	page = TrueLifestyle,
+	translation = Dancing_TestEnum,
+}
+
+option Dancing.TestDouble
+{
+	type = double,
+	min = 0,
+	max = 10,
+	default = 2,
+
+	page = TrueLifestyle,
+	translation = Dancing_TestDouble,
+}
