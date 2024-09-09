@@ -1,14 +1,3 @@
---------------------------------------------------------------------------------------------------
---		----	  |			  |			|		 |				|    --    |      ----			--
---		----	  |			  |			|		 |				|    --	   |      ----			--
---		----	  |		-------	   -----|	 ---------		-----          -      ----	   -------
---		----	  |			---			|		 -----		------        --      ----			--
---		----	  |			---			|		 -----		-------	 	 ---      ----			--
---		----	  |		-------	   ----------	 -----		-------		 ---      ----	   -------
---			|	  |		-------			|		 -----		-------		 ---		  |			--
---			|	  |		-------			|	 	 -----		-------		 ---		  |			--
---------------------------------------------------------------------------------------------------
-
 NewInstrumentsContextMenu = {};
 
 local function getLearnableSongs(Type)
@@ -161,9 +150,17 @@ end
 
 local function generalInstrumentConditions(thisPlayer)
 
+	print("Lifestyle Bridge Mod Instrument Conditions.")
+
 	if not thisPlayer then return false; end
-    if thisPlayer:getVehicle() then return false; end
-	--if not thisPlayer:isSitOnGround() then return false; end
+
+	-- Prevent a player from playing an instrument as a driver of a vehicle (or as a passenger, depending on mod configuration).
+    if thisPlayer:getVehicle() then 
+		if (SandboxVars.Instruments.PlayWhilePassenger == false or thisPlayer:getVehicle():getDriver() == thisPlayer) then 
+			return false; 
+		end
+	end
+
 	if thisPlayer:isSneaking() then return false; end
 	if thisPlayer:HasTrait("Deaf") then return false; end
 	if not thisPlayer:hasModData() then return false; end
