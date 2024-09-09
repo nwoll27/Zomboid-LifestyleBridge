@@ -47,3 +47,12 @@ option Dancing.TestDouble
 	page = TrueLifestyle,
 	translation = Dancing_TestDouble,
 }
+
+option Instruments.PlayWhilePassenger
+{
+	type = boolean,
+	default = true,
+
+	page = TrueLifestyle,
+	translation = Instruments_PlayWhilePassenger,
+}

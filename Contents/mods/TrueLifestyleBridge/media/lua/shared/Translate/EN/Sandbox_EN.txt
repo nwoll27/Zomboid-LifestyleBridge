@@ -23,4 +23,7 @@ Sandbox_EN = {
 
 	Sandbox_Dancing_TestDouble = "Test Double",
 	Sandbox_Dancing_TestDouble_tooltip = "Just a test double. Does nothing."
+
+	Sandbox_Instruments_PlayWhilePassenger = "Play Instruments While Passenger",
+	Sandbox_Instruments_PlayWhilePassenger_tooltip = "Controls whether survivors can play instruments while seated in a vehicle as a passenger."
 }
